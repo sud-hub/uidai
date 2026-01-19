@@ -1,0 +1,14 @@
+Error: Unalignable boolean Series provided as indexer (index of the boolean Series and of the indexed object do not match).
+Traceback (most recent call last):
+  File "D:\Sudarshan Khot\Coding\UIDAI\analyze_winning_patterns.py", line 282, in <module>
+    winning_insights = analyze_winning_patterns_script(df_bio, df_demo, df_enrol)
+  File "D:\Sudarshan Khot\Coding\UIDAI\analyze_winning_patterns.py", line 161, in analyze_winning_patterns_script
+    major_states = maint_idx[state_new > 1000].sort_values(ascending=False)
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Sudarshan Khot\Coding\UIDAI\venv\Lib\site-packages\pandas\core\series.py", line 1161, in __getitem__
+    key = check_bool_indexer(self.index, key)
+  File "D:\Sudarshan Khot\Coding\UIDAI\venv\Lib\site-packages\pandas\core\indexing.py", line 2698, in check_bool_indexer
+    raise IndexingError(
+    ...<3 lines>...
+    )
+pandas.errors.IndexingError: Unalignable boolean Series provided as indexer (index of the boolean Series and of the indexed object do not match).

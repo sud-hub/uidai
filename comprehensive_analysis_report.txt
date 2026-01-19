@@ -1,0 +1,105 @@
+
+================================================================================
+UIDAI COMPREHENSIVE STRATEGIC REPORT: 2026 GLOBAL STANDARDS
+================================================================================
+
+PATTERN 1: 1. State Maturity & Maintenance Focus
+--------------------------------------------------
+Analysis: High maintenance index indicates a saturated market where focus must shift to update efficiency. These states are 'Digital Identity Mature'.
+Metrics:  {'Maintenance_Index': {'Daman & Diu': 135.75, 'Daman and Diu': 124.95348837209302, 'Andaman and Nicobar Islands': 76.76041666666667, 'Chandigarh': 75.5739058629232, 'Andhra Pradesh': 53.34198890452927}, 'New_Enrols': {'Daman & Diu': 11.0, 'Daman and Diu': 42.0, 'Andaman and Nicobar Islands': 191.0, 'Chandigarh': 1210.0, 'Andhra Pradesh': 60384.0}}
+
+PATTERN 2: 2. Child Biometric Compliance Ratio
+--------------------------------------------------
+Analysis: Ratio 20.29 indicates compliance notification effectiveness. A robust digital ID system requires high compliance here.
+Metrics:  {'Child_Updates': 23495699, 'Child_New': 1157841, 'Ratio': np.float64(20.292681810369473)}
+
+PATTERN 3: 3. Urban Migration Hotspots
+--------------------------------------------------
+Analysis: Districts with intense demographic churning suggesting high internal migration.
+Metrics:  {'South 24 Parganas': 122930, 'Surat': 122046, 'North West Delhi': 119948, 'Thane': 118753, 'Pune': 115202}
+
+PATTERN 4: 4. Service Accessibility Skew
+--------------------------------------------------
+Analysis: Concentration of services. High skew implies digital divide risks.
+Metrics:  {'Top_10_Percent_Share': np.float64(0.6114841264503824)}
+
+PATTERN 5: 5. Adult Inclusion Gaps
+--------------------------------------------------
+Analysis: Volume of new adult enrolments implies historical exclusion being addressed.
+Metrics:  {'Meghalaya': 30670, 'Assam': 17160, 'Uttar Pradesh': 13066, 'Gujarat': 12512, 'Bihar': 9899}
+
+PATTERN 6: 6. Birth Registration Integration
+--------------------------------------------------
+Analysis: States linking ID creation to birth successfully.
+Metrics:  {'Daman & Diu': 1.0, 'ODISHA': 1.0, 'andhra pradesh': 1.0, 'Himachal Pradesh': 0.9383174996557896, 'Pondicherry': 0.9365325077399381}
+
+PATTERN 7: 7. Operational Stress Peaks
+--------------------------------------------------
+Analysis: System load capacity testing.
+Metrics:  {'Peak_Date': '2025-07-01 00:00:00', 'Peak_Value': 616868}
+
+PATTERN 8: 8. Administrative Friction Index
+--------------------------------------------------
+Analysis: High demographic update ratios suggest data quality issues or high address volatility. Essential for reducing administrative overhead.
+Metrics:  {'Westbengal': 0.625, 'West  Bengal': 0.6238390092879257, 'West Bangal': 0.555793991416309, 'West bengal': 0.5106382978723405, 'Darbhanga': 0.5}
+
+PATTERN 9: 9. Adult Biometric Maintenance Lag
+--------------------------------------------------
+Analysis: States where adults update demographics but neglect biometrics. Threat to authentication accuracy.
+Metrics:  {'west Bengal': 0.0, 'WESTBENGAL': 0.09090909090909091, 'West  Bengal': 0.125, 'West bengal': 0.17647058823529413, 'Westbengal': 0.1935483870967742}
+
+PATTERN 10: 10. The 'Young India' Pivot
+--------------------------------------------------
+Analysis: Proportion of new enrolments that are minors. High ratio indicates system sustainability.
+Metrics:  {'Youth_Enrollment_Share': np.float64(0.9628058064371502), 'Total_Minors': 3178247}
+
+PATTERN 11: 11. Intra-State Delivery Inequality
+--------------------------------------------------
+Analysis: States with highest standard deviation in district-level enrolments. Indicates uneven rollout or operational disparity.
+Metrics:  {'West Bengal': 3861.3465879760506, 'Maharashtra': 3474.5883582702063, 'Delhi': 3273.6326497141863, 'Bihar': 3174.762277845907, 'Uttar Pradesh': 3163.1425356785307}
+
+PATTERN 12: 12. Service Demand Weekly Cycles
+--------------------------------------------------
+Analysis: Day-of-week analysis to optimize staffing. High weekend load requires flexible rostering.
+Metrics:  {'Friday': 352213, 'Monday': 349035, 'Saturday': 287341, 'Sunday': 338001, 'Thursday': 483141, 'Tuesday': 1161686, 'Wednesday': 329609}
+
+PATTERN 13: 13. 'Ghost' Districts Alert
+--------------------------------------------------
+Analysis: Number of districts in the bottom 5th percentile of volume. Potential data reporting failures or infrastructure collapse.
+Metrics:  {'Ghost_Districts_Count': 50, 'Volume_Threshold': np.float64(9.0)}
+
+PATTERN 14: 14. Weekend Accessibility Index
+--------------------------------------------------
+Analysis: Share of enrolments processed on weekends. Critical for working-class inclusion.
+Metrics:  {'Weekend_Share': np.float64(0.1894386775505555)}
+
+PATTERN 15: 15. The 'Update Economy' Scale
+--------------------------------------------------
+Analysis: Macro ratio of updates to new enrolments. 2026 systems should be Update-heavy (>3.0).
+Metrics:  {'Total_Updates': 63022015, 'Total_New': 3301026, 'Ratio': np.float64(19.09164453718329)}
+
+PATTERN 16: 16. Infant Capture Efficiency
+--------------------------------------------------
+Analysis: Ratio of 0-5 to 5-17 enrolments. High ratio = capturing at birth. Low ratio = waiting until school.
+Metrics:  {'Infant_Child_Ratio': np.float64(1.744977073708739)}
+
+PATTERN 17: 17. Demographic Drift (High Churn States)
+--------------------------------------------------
+Analysis: States with highest ratio of demographic changes to new entries. Indicates population mobility or data correction waves.
+Metrics:  {'Chhatisgarh': inf, 'Darbhanga': inf, 'odisha': inf, 'west Bengal': inf, 'Puttenahalli': inf}
+
+PATTERN 18: 18. Pincode Penetration Depth
+--------------------------------------------------
+Analysis: Average new enrolments per active pincode. Low number implies broad but thin network, High = dense demand.
+Metrics:  {'Active_Pincodes': 19302, 'Avg_Txn_Per_Pin': 171.01989431147032}
+
+PATTERN 19: 19. Operational Volatility Index (CV)
+--------------------------------------------------
+Analysis: Coefficient of Variation for daily volumes. High volatility (>0.5) implies unpredictable staffing demands.
+Metrics:  {'CV': np.float64(1.5533714071192808), 'Mean_Daily_Vol': np.float64(58946.892857142855)}
+
+PATTERN 20: 20. The 18+ Entry Wall (Full Coverage)
+--------------------------------------------------
+Analysis: States with minimal new adult enrolments. These states have achieved near-total adult saturation.
+Metrics:  {'Andaman & Nicobar Islands': 0, 'Andaman and Nicobar Islands': 0, 'Daman & Diu': 0, 'Dadra & Nagar Haveli': 0, 'Daman and Diu': 0}
+
